@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.navbar {
+    list-style-type: none; /* Choose the type of list */
+    margin: 0;
+    padding: 0; /* deletes the defult browser settings*/
+    background-color: gray;
+    width: 100%;
+    overflow: hidden; /* it tells the code not to overlap the text in the bar*/
+    border: 1px solid #555
+}
+
+.navbar li a {
+    display: block;   /* Makes the tabs in the navigation bar squares*/
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar li a:hover {  /*hover makes the colour change when i hover my mouse over it*/
+    background-color: #111; /*changes the color of the box in the nav bar when */
+    color:white;    /*changes the colour of the text when highlighting the squares in the nav bar*/
+}
+
+.navbar li {
+    float: left; /*this tells the page where the boxes should be*/
+    text-align: center; /*this makes the text in the box stay in the middle*/
+    border-right: 1px solid rgb(0, 0, 0); /*this separates the boxes with a line*/
+}
+
+
+.banan {
+    background-image: url('https://i.redd.it/8z2fra2gtfc61.jpg');
+    background-repeat: no-repeat;
+    background-size: auto%;
+   }
